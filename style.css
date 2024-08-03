@@ -63,7 +63,51 @@ body {
   align-items: center;
 }
 .footer_text {
-  width: 50%;
+  height: 400px;
+  width: 500px;
+
+  align-items: end;
+}
+.footer_text h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.footer_text h2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+}
+.founder_text {
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
+  margin-top: -5px;
+}
+.footer_about {
+  padding: 10px;
+  font-weight: 500;
+  color: #1d1d1d;
+}
+.mail {
+  height: 100px;
+  width: 500px;
+  background-image: linear-gradient(90deg, rgb(236, 8, 114), rgb(91, 2, 43));
+  border-radius: 7px;
+}
+.m_p {
+  text-align: center;
+  padding: 10px;
+  padding-bottom: 0px;
+  color: #fff;
+  font-size: 12px;
+}
+.mail_h3 {
+  text-align: center;
+  padding: 10px;
+  color: #fff;
+  margin-top: -5px;
 }
 .latest_work {
   height: 500px;
@@ -76,6 +120,11 @@ body {
   float: left;
   margin-left: 250px;
   box-sizing: border-box; /* Ensures any padding or border is included in the width */
+}
+#copy_right_text {
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
 }
 
 span {
